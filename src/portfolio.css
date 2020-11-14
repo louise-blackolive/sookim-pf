@@ -1,0 +1,68 @@
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.portfolio-name {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.portfolio-name a {
+  font-family: "Fjalla One";
+  font-weight: bold;
+  font-size: 300%;
+  color: #0a3d62;
+}
+
+.portfolio-line {
+  margin-top: 20px;
+  color: #0a3d62;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-item .portfolio-item-img {
+  max-width: 20rem;
+  border-radius: 0.5rem;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+  position: absolute;
+  width: 20rem;
+  height: 14.5rem;
+  border-radius: 0.5rem;
+  margin: 5px;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: rgba(26, 188, 156, 0.9);
+}
+
+.portfolio-item-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.portfolio-item-caption i {
+  color: white;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+  opacity: 1;
+}

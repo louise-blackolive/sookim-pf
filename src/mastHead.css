@@ -1,0 +1,43 @@
+.masthead {
+  display: flex;
+  flex-direction: column;
+  background-color: #1abc9c;
+  height: 800px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.masthead-avatar {
+  width: 250px;
+}
+
+.masthead-name {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.masthead-name a {
+  font-family: "Fjalla One";
+  font-weight: bold;
+  font-size: 300%;
+  color: white;
+}
+
+.masthead-line {
+  margin-top: 20px;
+  color: white;
+}
+
+.masthead-tech {
+  margin-top: 20px;
+  width: 500px;
+  text-align: center;
+}
+
+.masthead-tech a {
+  font-family: "Fjalla One";
+  font-weight: bold;
+  font-size: 180%;
+  color: white;
+}
